@@ -1,2 +1,9 @@
+@import url("../blocks");
 @import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+@import url("../blocks/page-color/page-color.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/_margin/header_margin.css");
+@import url("../blocks/header/__lang-links/header__lang-links.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");

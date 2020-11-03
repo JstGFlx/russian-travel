@@ -7,3 +7,10 @@
 	grid-template-rows: repeat(3, auto);
 	gap: 16px;
 }
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, auto);
+		grid-template-rows: repeat(4, auto);
+		gap: 14px;
+  }

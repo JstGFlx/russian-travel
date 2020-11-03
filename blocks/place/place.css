@@ -12,3 +12,9 @@
 .place:last-child {
 	margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .place {
+		grid-template-columns: 47.414% calc(52.586% - 32px);
+		grid-gap: 48px 32px;
+  }

@@ -6,10 +6,6 @@
 	margin-right: 18px;
 }
 
-.header__lang-link:first-child {
-	text-decoration: underline;
-}
-
 .header__lang-link:last-child {
   margin: 0;
 }

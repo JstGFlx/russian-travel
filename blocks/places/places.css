@@ -5,4 +5,11 @@
 @media (max-width: 1024px) {
   .places {
 		max-width: 928px;
-  }
+	}
+}
+
+@media (max-width: 768px) {
+  .places {
+		max-width: 720px;
+	}
+}

@@ -1,3 +1,15 @@
 .footer_margin {
 	margin: 92px 48px 24px;
 }
+
+@media (max-width: 768px) {
+  .footer_margin {
+		margin: 88px 24px 24px;
+	}
+}
+
+@media (max-width: 320px) {
+  .footer_margin {
+		margin: 64px 16px 24px;
+	}
+}

@@ -1,8 +1,8 @@
 .cover__background {
 	position: relative;
 	margin: auto;
-	padding: 245px 0 245px;
-	width: calc(100vw - 96px);
+	padding: 245px 0;
+	max-width: 1184px;
 	background-image: url("../../../images/cover-trains.jpg");
 	background-size: cover;
 	background-position: center;
@@ -27,6 +27,21 @@
 
 @media (max-width: 1024px) {
   .cover__background {
-		width: 100vw;
-		padding: 195px 0 195px;
-  }
+		max-width: 1024px;
+		padding: 195px 0;
+	}
+}
+
+@media (max-width: 768px) {
+  .cover__background {
+		max-width: 1024px;
+		padding: 115px 0;
+	}
+}
+
+@media (max-width: 320px) {
+  .cover__background {
+		max-width: 320px;
+		padding: 33px 0;
+	}
+}

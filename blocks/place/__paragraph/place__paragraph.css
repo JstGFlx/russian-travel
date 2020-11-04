@@ -3,5 +3,24 @@
 	font-size: 18px;
 	line-height: 30px;
 	color: #FFFFFF;
-	margin: 0 0 24px
+	margin: 0 0 24px;
+}
+
+.place__paragraph:last-child {
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+		font-size: 16px;
+		line-height: 26px;
+	}
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+		font-size: 16px;
+		line-height: 26px;
+    padding: 0 16px 0;
+	}
 }

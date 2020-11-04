@@ -1,7 +1,19 @@
 .place__url-heading {
 	margin: 0 0 12px;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 20px;
 	letter-spacing: 0.2em;
 	color: #AAAAAA;
+}
+
+@media (max-width: 768px) {
+  .place__url-heading {
+		line-height: 12px;
+	}
+}
+
+@media (max-width: 320px) {
+  .place__url-heading {
+		display: none;
+  }
 }

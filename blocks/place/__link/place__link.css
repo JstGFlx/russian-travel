@@ -9,3 +9,9 @@
 .place__link:hover {
 	opacity: 0.8;
 }
+
+@media (max-width: 320px) {
+  .place__link {
+		display: none;
+  }
+}

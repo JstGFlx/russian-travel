@@ -1,4 +1,4 @@
-.footer_link {
+.footer__link {
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 18px;
@@ -7,16 +7,16 @@
 	transition: opacity 0.3s ease 0s;
 }
 
-.footer_link:last-child {
+.footer__link:last-child {
 	margin: 0;
 }
 
-.footer_link:hover {
+.footer__link:hover {
 	opacity: 0.8;
 }
 
 @media (max-width: 320px) {
-  .footer_link {
+  .footer__link {
 		font-size: 24px;
 		line-height: 24px;
 		margin-bottom: 32px;

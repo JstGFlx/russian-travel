@@ -1,15 +1,15 @@
-.intro_margin {
+.margins-m {
 	margin: 92px auto 92px;
 }
 
 	@media (max-width: 768px) {
-	.intro_margin {
+	.margins-m {
 		margin: 88px auto 88px;
 	}
 }
 
 @media (max-width: 320px) {
-	.intro_margin {
+	.margins-m {
 		margin: 64px auto 64px;
 	}
 }

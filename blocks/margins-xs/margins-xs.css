@@ -1,9 +1,9 @@
-.header_margin {
+.margins-xs {
 	margin: 28px auto 0;
 }
 
 @media (max-width: 692px) {
-  .header_margin {
+  .margins-xs {
 		margin: 16px 0 0;
 	}
 }

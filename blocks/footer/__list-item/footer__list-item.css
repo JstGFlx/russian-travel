@@ -1,0 +1,15 @@
+.footer__list-item {
+	display: inline;
+	margin-right: 18px;
+}
+
+@media (max-width: 725px) {
+  .footer__list-item {
+		display: block;
+		margin-bottom: 32px;
+	}
+	
+	.footer__list-item:last-child {
+		margin: 0;
+	}
+}

@@ -1,15 +1,15 @@
-.footer_margin {
+.margins-l {
 	margin: 92px auto 24px;
 }
 
 @media (max-width: 768px) {
-  .footer_margin {
+  .margins-l {
 		margin: 88px 24px 24px;
 	}
 }
 
 @media (max-width: 725px) {
-  .footer_margin {
+  .margins-l {
 		margin: 64px 16px 24px;
 	}
 }

@@ -4,7 +4,6 @@
 	display: grid;
 	grid-template-columns: 46.748% calc(53.252% - 40px);
 	grid-gap: 48px 40px;
-	overflow: hidden;
 	grid-template-areas:
     "title website"
 		"image main-text";

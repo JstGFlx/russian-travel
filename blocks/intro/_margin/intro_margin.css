@@ -2,12 +2,6 @@
 	margin: 92px auto 92px;
 }
 
-@media (max-width: 1024px) {
-  .intro_margin {
-    margin: 92px auto 92px;
-	}
-}
-
 	@media (max-width: 768px) {
 	.intro_margin {
 		margin: 88px auto 88px;

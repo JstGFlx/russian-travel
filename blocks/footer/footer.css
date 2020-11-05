@@ -1,8 +1,16 @@
 .footer {
-	max-width: 1184px;
+	box-sizing: border-box;
+	max-width: 1280px;
+	padding: 0 48px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer {
+		padding: 0;
+	}
 }
 
 @media (max-width: 725px) {
@@ -10,3 +18,4 @@
 		flex-direction: column;
 	}
 }
+

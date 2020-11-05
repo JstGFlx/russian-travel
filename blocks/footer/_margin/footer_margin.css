@@ -2,12 +2,6 @@
 	margin: 92px auto 24px;
 }
 
-@media (max-width: 1024px) {
-  .footer_margin {
-		margin: 92px 48px 24px;
-	}
-}
-
 @media (max-width: 768px) {
   .footer_margin {
 		margin: 88px 24px 24px;

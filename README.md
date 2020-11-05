@@ -9,5 +9,4 @@
 * Grid
 * Flex
 
-[Ссылка на проект]
-[Ссылка на проект]:https://jstgflx.github.io/russian-travel/
+[cсылка на проект](https://jstgflx.github.io/russian-travel/)

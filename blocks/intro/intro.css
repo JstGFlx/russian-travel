@@ -1,5 +1,6 @@
 .intro {
-	max-width: 984px;
+	max-width: 1032px;
+	padding-left: 48px;
 }
 
 @media (max-width: 1024px) {
@@ -11,11 +12,12 @@
 @media (max-width: 768px) {
 	.intro {
 		max-width: 720px;
+		padding: 0 24px 0;
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 692px) {
 	.intro {
-		max-width: 288px;
+		padding: 0 16px 0;
 	}
 }

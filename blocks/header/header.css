@@ -1,6 +1,19 @@
 .header {
-	max-width: 1184px;
+	max-width: 1280px;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
+	padding: 0 48px 0;
 }
 
+@media (max-width: 768px) {
+  .header {
+		padding: 0 24px 0;
+	}
+}
+
+@media (max-width: 692px) {
+  .header {
+		padding: 0 16px 0;
+	}
+}

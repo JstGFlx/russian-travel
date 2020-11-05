@@ -7,16 +7,14 @@
 	color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 941px) {
   .lead__caption {
 		margin: 8px 0 0 24px;
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 692px) {
   .lead__caption {
 		margin: 8px 0 0 16px;
-		font-size: 10px;
-    line-height: 14px;
 	}
 }

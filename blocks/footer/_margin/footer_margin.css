@@ -14,7 +14,7 @@
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
   .footer_margin {
 		margin: 64px 16px 24px;
 	}

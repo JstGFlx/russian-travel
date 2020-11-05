@@ -9,8 +9,9 @@
 	color: #FFFFFF;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 550px) {
   .cover__subtitle {
+		margin: 16px auto 0;
 		font-size: 14px;
     line-height: 16px;
 	}

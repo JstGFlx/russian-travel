@@ -1,15 +1,15 @@
 .margins-xl {
-	margin: 92px auto;
+	margin: 92px auto 0;
 }
 
 @media (max-width: 768px) {
   .margins-xl {
-		margin: 88px auto;
+		margin: 88px auto 0;
   }
 }
 
 @media (max-width: 320px) {
   .margins-xl {
-		margin: 66px auto;
+		margin: 66px auto 0;
   }
 }

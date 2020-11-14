@@ -1,0 +1,5 @@
+.video__item_bg_obs {
+	background-image: url("../../../../images/video__observatory.jpg");
+	background-size: cover;
+	background-position: center;
+}

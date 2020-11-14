@@ -1,0 +1,31 @@
+.content-title {
+	margin: auto;
+	padding-top: 102px;
+	max-width: 800px;
+	font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+  .content-title {
+	  font-size: 42px;
+    line-height: 46px;
+	}
+}
+
+@media (max-width: 768px) {
+  .content-title {
+	  padding-top: 95px;
+	}
+}
+
+@media (max-width: 415px) {
+  .content-title {
+		padding-top: 64px;
+	  font-size: 32px;
+    line-height: 35px;
+	}
+}

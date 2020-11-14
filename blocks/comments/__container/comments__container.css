@@ -1,0 +1,16 @@
+.comments__container {
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 19px;
+	padding: 72px 0 102px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+	.comments__container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}

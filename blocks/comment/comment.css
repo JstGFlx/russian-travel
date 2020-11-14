@@ -1,0 +1,16 @@
+.comment {
+	max-width: 382px;
+}
+
+@media (max-width: 768px) {
+	.comment {
+		display: flex;
+	  flex-direction: column;
+	  align-items: center;
+		margin-top: 48px;
+	}
+
+	.comment:first-child {
+		margin-top: 0;
+	}
+}

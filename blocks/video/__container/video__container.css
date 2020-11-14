@@ -1,5 +1,5 @@
 .video__container{
-	padding: 72px 0 102px;
+	padding-top: 72px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto;
@@ -14,13 +14,13 @@
 
 @media (max-width: 768px) {
   .video__container {
-	  padding: 56px 0 102px;
+	  padding-top: 56px;
 	}
 }
 
 @media (max-width: 526px) {
   .video__container {
-		padding: 24px 0 64px;
+		padding-top: 24px;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 	  gap: 8px;

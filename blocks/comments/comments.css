@@ -1,0 +1,12 @@
+.comments {
+	margin: auto;
+	box-sizing: border-box;
+	max-width: 1280px;
+	padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .comments {
+		padding: 0 16px;
+	}
+}

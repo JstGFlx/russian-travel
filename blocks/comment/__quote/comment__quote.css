@@ -1,0 +1,12 @@
+.comment__quote {
+	margin: 42px 0 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+	.comment__quote {
+		margin: 24px 0 0;
+	}
+}

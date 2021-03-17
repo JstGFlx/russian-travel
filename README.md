@@ -17,7 +17,7 @@
 ## Установка и развертываение:
 В этом проекте не используется сборщик, поэтому просто клонируйте себе репозиторий командой:
 ```
-git clone https://github.com/JstGFlx/How-to-learn.git
+git clone https://github.com/JstGFlx/russian-travel.git
 ```
 И откройте index.html браузером
 
